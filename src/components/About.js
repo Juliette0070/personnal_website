@@ -1,7 +1,10 @@
+import "../styles/About.css";
+
 function About() {
   return (
     <div>
-      <h2>About</h2>
+      <h1>À propos de moi</h1>
+      <p>À venir</p>
     </div>
   );
 }
