@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import "./styles/index.css"; // Crée un fichier CSS de base pour ton style
+import "./index.css";
 import App from "./App";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

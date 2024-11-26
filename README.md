@@ -7,7 +7,7 @@ Ce projet est un site web personnel développé en React pour présenter mon par
 - À propos de moi : Une section détaillant mon parcours et mes aspirations professionnelles.
 - CV : Une page présentant mon expérience et ma formation, avec un lien pour télécharger mon CV au format PDF.
 - Projets : Une galerie interactive de mes projets avec descriptions et images.
-- Contact : Un formulaire pour me contacter, ainsi que des liens vers mes réseaux sociaux.
+- Contact : Des liens vers mes réseaux sociaux.
 
 ## Technologies
 - React : Bibliothèque JavaScript pour la création d'interfaces utilisateur.

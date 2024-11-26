@@ -1,0 +1,44 @@
+/* Général : Assure-toi que tout prend la hauteur de l'écran */
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+/* Conteneur principal */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* Permet de couvrir toute la hauteur */
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0; /* Reste collé en haut */
+  z-index: 10; /* Optionnel : pour être au-dessus d'autres éléments */
+}
+
+/* Contenu principal */
+main {
+  flex: 1; /* Prend tout l'espace disponible entre le header et le footer */
+  padding: 2rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  bottom: 0; /* Reste collé en bas */
+  z-index: 10; /* Optionnel */
+}
+  
